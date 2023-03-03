@@ -21,7 +21,7 @@ To use this playbook, follow these steps:
 2. Navigate to the project directory
 3. Update the hosts file with the IP address of your EC2 instance, and the path to your SSH private key and the username for the connection
 4. Update the deploy.yml file with the necessary configurations for your application, such as the path to your Node.js file and the name of your Linux user.
-5. Run the playbook using the following command:
+### Run the playbook using the following command:
     ansible-playbook -i hosts deploy.yml
 
 Playbook Overview
